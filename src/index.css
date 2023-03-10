@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+:root {
+  --h1_font-family: "STIX Two Text", serif;
+  --normal-font: "Figtree", sans-serif;
+  --header-font: "Bitter", serif;
+  --auction-font: "Bellefair", serif;
+  --p-color: #333333;
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+  --swiper-theme-color: white important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: var(--h1_font-family);
+}
+li {
+  font-family: var(--normal-font);
+}
+header {
+  font-family: var(--header-font);
+}
+h5 {
+  font-family: var(--auction-font);
+}
+p,
+span {
+  font-family: var(--normal-font);
+  color: var(--p-color);
+}
+h2 {
+  font-family: var(--normal-font);
+}
+::placeholder {
+  font-family: "STIX Two Text", serif;
+  font-size: 17px;
+  color: #000;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menuitem {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2px;
+  background: #fff;
+  cursor: pointer;
+}
+.menuitem span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #000;
+  transition: all 0.9s;
+}
+.menuitem.active span {
+  width: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+  scale: (1.2);
+}
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+  scale: (0.8);
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #fff !important;
+}
+
+.demoWrapper > div > div img {
+  width: 930% !important;
+}
+.imgWrapper img.active {
+  left: 0;
+  transition: all 0.4s linear;
+}
+/**
+ *  Progress Bar
+ */
+.progress {
+  display: block;
+
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-color: #aeaeae;
+  background-image: linear-gradient(to right, white, white);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+
+  transition: background-size 0.4s ease-in-out;
+}
+
+/**
+ *   Styles for slider progress div
+ * 
+ */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  margin: 0;
+  width: 300px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-card {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.firstbg {
+  background: url("/src/assets/monalisa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.secondbg {
+  background: rgba(0, 0, 0, 0.5) url("/src/assets/loveangels.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.thirdbg {
+  background: rgba(0, 0, 0, 0.5) url("assets/portrait-ge6b10ef81_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.fourthbg {
+  background: rgba(0, 0, 0, 0.5) url("assets/composing-gcd319826a_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.fifthbg {
+  background: rgba(0, 0, 0, 0.5) url("assets/pexels-rfstudio-3810832.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.sixthbg {
+  background: rgba(0, 0, 0, 0.5) url("assets/elephant-ga0712aa0c_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.setnav {
+  left: 0;
+}
+.increase {
+  height: 300px !important;
+  transition: all 700ms ease-in-out;
+}
+.like-change {
+  color: rgb(255, 0, 144);
+  font-size: 1.5rem;
+  transition: all 400ms ease-in-out;
+}
+.smol {
+  height: 160px !important;
+  transition: all 700ms ease-in-out;
+  padding-bottom: 10px;
+}
+.verysmol {
+  height: 130px !important;
+  transition: all 700ms ease-in-out;
+}
+.hori-scroll {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+  -ms-touch-action: pan-x;
+  -webkit-touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+}
+.hori-scroll > div {
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+.hori-scroll::-webkit-scrollbar {
+  height: 0;
+  background-color: transparent;
+}
+.hori-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+  border: 2px solid transparent;
+}
+.hori-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.showIncrease {
+  height: 170rem !important;
+  transition: all 900ms ease-in-out;
+}
+.showIncrease2 {
+  height: 300rem !important;
+  transition: all 900ms ease-in-out;
+}
