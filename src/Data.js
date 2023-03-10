@@ -1,54 +1,54 @@
 export const Data = [
   {
-    url: "/src/assets/glow.png",
+    url: "../src/assets/glow.png",
     title: "PHILOMENA ‘22",
     price: "3.90",
     link: "/marketplace/p1",
   },
   {
-    url: "/src/assets/stripe.png",
+    url: "../src/assets/stripe.png",
     title: "BOOLEAN EGYPTIAN",
     price: "3.90",
     link: "/marketplace/p2",
   },
   {
-    url: "/src/assets/sundress.png",
+    url: "../src/assets/sundress.png",
     title: "BLANC",
     price: "3.90",
     link: "/marketplace/p3",
   },
   {
-    url: "/src/assets/sonycam.png",
+    url: "../src/assets/sonycam.png",
     title: "ELLIPSIA",
     price: "3.90",
     link: "/marketplace/p4",
   },
   {
-    url: "/src/assets/lawmakers.png",
+    url: "../src/assets/lawmakers.png",
     title: "THE LAWMAKERS",
     price: "3.90",
     link: "/marketplace/p5",
   },
   {
-    url: "/src/assets/edges.png",
+    url: "../src/assets/edges.png",
     title: "VEIL",
     price: "3.90",
     link: "/marketplace/p6",
   },
   {
-    url: "/src/assets/alternating.png",
+    url: "../src/assets/alternating.png",
     title: "ALTERNATING",
     price: "3.90",
     link: "/marketplace/p7",
   },
   {
-    url: "/src/assets/rose.png",
+    url: "../src/assets/rose.png",
     title: "ROSEMARY ‘22",
     price: "3.90",
     link: "/marketplace/p8",
   },
   {
-    url: "/src/assets/beverly.png",
+    url: "../src/assets/beverly.png",
     title: "BEVERLY",
     price: "3.90",
     link: "/marketplace/p9",
@@ -57,7 +57,7 @@ export const Data = [
 
 export const dropDetails = [
   {
-    url: "/src/assets/eko.png",
+    url: "../src/assets/eko.png",
     title: "Eyo: Eko For Show",
     date: "November 21 at 11 am WAT",
     set_time: "06 hrs: 45 min ",
@@ -67,7 +67,7 @@ export const dropDetails = [
   },
 
   {
-    url: "/src/assets/autumn.png",
+    url: "../src/assets/autumn.png",
     title: "Ginger Suburbs",
     date: "November 20 at 1 pm WAT",
     set_time: "06 hrs : 45 min",
@@ -76,7 +76,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/mamiwater.png",
+    url: "../src/assets/mamiwater.png",
     title: "Sink",
     date: "November 19 at 8am WAT",
     set_time: "2 hours ago",
@@ -85,7 +85,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/glowbox.png",
+    url: "../src/assets/glowbox.png",
     title: "Warped '99",
     date: "November 1 at 10am WAT",
     set_time: "5 hours ago",
@@ -94,7 +94,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/sunset.png",
+    url: "../src/assets/sunset.png",
     title: "Sift",
     date: "November 21 at  11am WAT",
     set_time: "02 hrs : 45 min",
@@ -103,7 +103,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/edges.png",
+    url: "../src/assets/edges.png",
     title: "Veil",
     date: "November 21 at  11am WAT",
     set_time: "1 hour ago",
