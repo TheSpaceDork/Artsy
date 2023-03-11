@@ -24,7 +24,7 @@ export const Data = [
     link: "/marketplace/p4",
   },
   {
-    url: "/src/assets/lawmakers.png",
+    url: "lawmakers",
     title: "THE LAWMAKERS",
     price: "3.90",
     link: "/marketplace/p5",
