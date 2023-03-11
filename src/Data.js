@@ -1,6 +1,6 @@
 export const Data = [
   {
-    url: "/src/assets/glow.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter1.7f2391345b4f6ea837c0.png",
     title: "PHILOMENA ‘22",
     price: "3.90",
     link: "/marketplace/p1",
