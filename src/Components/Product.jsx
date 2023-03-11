@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import lawmakers from "../assets/lawmakers.png"
+
 const Product = (props) => {
   
   return ( <Link to={props.link}>

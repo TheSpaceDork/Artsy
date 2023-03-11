@@ -6,50 +6,50 @@ export const Data = [
     link: "/marketplace/p1",
   },
   {
-    url: "/src/assets/stripe.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter2.99e283ce71fe9dab52a1.png",
     title: "BOOLEAN EGYPTIAN",
     price: "3.90",
     link: "/marketplace/p2",
   },
   {
-    url: "/src/assets/sundress.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter3.e4d8cb7563c18122c4e9.png",
     title: "BLANC",
     price: "3.90",
     link: "/marketplace/p3",
   },
   {
-    url: "/src/assets/sonycam.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter4.c3700a41d69b844f16bd.png",
     title: "ELLIPSIA",
     price: "3.90",
     link: "/marketplace/p4",
   },
   {
-    url: "lawmakers",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter5.73bde08902b1d383895c.png",
     title: "THE LAWMAKERS",
     price: "3.90",
     link: "/marketplace/p5",
   },
 
   {
-    url: "/src/assets/edges.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter6.55fd65f7351dc8547362.png",
     title: "VEIL",
     price: "3.90",
     link: "/marketplace/p6",
   },
   {
-    url: "/src/assets/alternating.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter7.c1f25db432180311a16f.png",
     title: "ALTERNATING",
     price: "3.90",
     link: "/marketplace/p7",
   },
   {
-    url: "/src/assets/rose.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter8.09539a0899086ea8ab17.png",
     title: "ROSEMARY ‘22",
     price: "3.90",
     link: "/marketplace/p8",
   },
   {
-    url: "/src/assets/beverly.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Filter9.140e61e901f622708673.png",
     title: "BEVERLY",
     price: "3.90",
     link: "/marketplace/p9",
@@ -58,7 +58,7 @@ export const Data = [
 
 export const dropDetails = [
   {
-    url: "/src/assets/eko.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Notification1.1041d7aa6cb3b2030455.png",
     title: "Eyo: Eko For Show",
     date: "November 21 at 11 am WAT",
     set_time: "06 hrs: 45 min ",
@@ -68,7 +68,7 @@ export const dropDetails = [
   },
 
   {
-    url: "/src/assets/autumn.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Notify2.ac081fd942775d8a9167.png",
     title: "Ginger Suburbs",
     date: "November 20 at 1 pm WAT",
     set_time: "06 hrs : 45 min",
@@ -77,7 +77,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/mamiwater.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Notify3.9f84d7f86a85121991ff.png",
     title: "Sink",
     date: "November 19 at 8am WAT",
     set_time: "2 hours ago",
@@ -86,7 +86,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/glowbox.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/Notify4.dc7e1471eadb8821640d.png",
     title: "Warped '99",
     date: "November 1 at 10am WAT",
     set_time: "5 hours ago",
@@ -95,7 +95,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/sunset.png",
+    url: "https://artsy-tee.vercel.app/assets/apart-0c753195.png",
     title: "Sift",
     date: "November 21 at  11am WAT",
     set_time: "02 hrs : 45 min",
@@ -104,7 +104,7 @@ export const dropDetails = [
     link: "",
   },
   {
-    url: "/src/assets/edges.png",
+    url: "https://artsy-photography-six.vercel.app/static/media/create-image.2beb3e30042c7c43ea58.png",
     title: "Veil",
     date: "November 21 at  11am WAT",
     set_time: "1 hour ago",
